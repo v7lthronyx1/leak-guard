@@ -46,7 +46,7 @@ sing-box باید با root اجرا بشه (`sudo`): TUN و مسیرها و ش�
 ```bash
 mkdir leak-guard && cd leak-guard
 for f in harden.sh killswitch.sh leaktest.sh SHA256SUMS; do
-  curl -fsSLO "https://github.com/v74all/leak-guard/releases/latest/download/$f"
+  curl -fsSLO "https://github.com/w59520760-sketch/leak-guard/releases/latest/download/$f"
 done
 sha256sum -c SHA256SUMS
 ```
@@ -164,7 +164,7 @@ Requirements: Linux (tested Ubuntu 24.04 and Debian 12), sing-box 1.12+ (tested 
 
 ```bash
 for f in harden.sh killswitch.sh leaktest.sh SHA256SUMS; do
-  curl -fsSLO "https://github.com/v74all/leak-guard/releases/latest/download/$f"
+  curl -fsSLO "https://github.com/w59520760-sketch/leak-guard/releases/latest/download/$f"
 done
 sha256sum -c SHA256SUMS
 
